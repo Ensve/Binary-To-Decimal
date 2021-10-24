@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konverter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="ICON" href="images/binary.png" type="img/ico">
+</head>
+<body>
+   
+    <div class="container">
+
+        <h1>Binær til Desimal</h1>
+
+        <form class="main_form">
+
+            <div class="box">
+
+            <section class="main_form-section">
+                <h3>Binær:</h3>
+                <input
+                    class="main_form-section-input" 
+                    id="binary" 
+                    name="binary"
+                    type="number" 
+                    class="text"
+                    maxlength="8" 
+                    required
+                >
+            </section>
+
+            <section class="main_form-section">
+                <h3>Desimal:</h3>
+                <input
+                    id="decimal"
+                    type="number"
+                    readonly
+                >
+            </section>
+
+            <button type="submit" class="main_form-button">Konverter</button>
+
+            </div>
+
+        </form>
+    </div>
+
+<script src="index.js"></script>
+</body>
+</html>
